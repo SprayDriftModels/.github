@@ -1,14 +1,3 @@
-<!--
-## Hi there 👋
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
-
 # SprayDriftModels
 
 Welcome to **SprayDriftModels** — an open-source organization developing mechanistic models for simulating the drift and fate of pesticide spray droplets from agricultural spray equipment.
@@ -25,9 +14,28 @@ Key features:
 - Available as a C++ library, command-line tool, and R package
 - Builds on Windows and Linux via CMake and vcpkg
 
+### [DRAW-Model — DRAW Model Prediction App](https://github.com/SprayDriftModels/DRAW-Model)
+
+A Shiny app for spray drift prediction in agricultural risk assessment, using Bayesian multilevel regression models fitted with [brms](https://paul-buerkner.github.io/brms/). A deliverable of the [SETAC DRAW workshop](https://www.spraydriftmitigation.info/).
+
+Key features:
+- Predicts spray drift deposition at various downwind distances under user-specified conditions
+- Compares predictions against Rautmann reference curves
+- Supports Bayesian multilevel (BRM-lognormal) and frequentist linear mixed (LME) models
+- Interactive dashboard with trial comparisons and downloadable HTML reports
+
+### [cdmshiny — CDM Shiny App](https://github.com/SprayDriftModels/cdmshiny)
+
+An interactive R Shiny web application for the Casanova Drift Model (CDM). Provides a user-friendly graphical interface for running CDM simulations and visualizing spray drift results without requiring command-line usage.
+
+Key features:
+- Interactive web interface for configuring and running CDM simulations
+- Visualization of spray drift deposition profiles
+- Accessible to users without programming experience
+
 ## Getting Started
 
-See the [CDM repository](https://github.com/SprayDriftModels/CDM) for build instructions, sample input files, and documentation.
+See the [CDM repository](https://github.com/SprayDriftModels/CDM) for build instructions, sample input files, and documentation. See the [DRAW-Model repository](https://github.com/SprayDriftModels/DRAW-Model) for prerequisites and usage instructions. See the [cdmshiny repository](https://github.com/SprayDriftModels/cdmshiny) for the CDM Shiny app.
 
 ## Contributing
 
